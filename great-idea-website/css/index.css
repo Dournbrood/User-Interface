@@ -48,7 +48,7 @@ table {
 * {
     box-sizing: border-box;
 }
-
+s
 html,body {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
@@ -128,7 +128,7 @@ nav{
 }
 
 .toolbar{
-    display: block;
+    display: inline-block;
     position: fixed;
     padding: 15px 0 15px 0;
     width: 90%;
@@ -154,7 +154,7 @@ nav{
 /*Center div*/
 .center{
     position: relative;
-    display: block;
+    display: inline-block;
     padding: 10px 0 10px 0;
     top: 300px;
     border-top: 2px solid black;
@@ -163,7 +163,7 @@ nav{
 
 .middle-img{
     margin: 10px 0 10px 0;
-    display: block;
+    display: inline-block;
     width: 100%;
     height: auto;
 }
@@ -216,6 +216,6 @@ p{
     position: relative;
     top: 320px;
     width: 32%;
-    display: block;
+    display: inline-block;
     padding: 10px 0 10px 0;
 }
